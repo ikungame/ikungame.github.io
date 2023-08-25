@@ -1,14 +1,666 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="zh">
+
 <head>
-<meta charset="utf-8">
-<title>FunSlime | 官方网站</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FunSlime | 官方网站" />
+    <meta name="keywords" content="Minecraft, FunSlime, 我的世界, MC服务器" />
+    <title>FunSlime | 官方网站</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="./static/css/css2.css" rel="stylesheet">
 </head>
+
 <body>
- 
-<h1>FunSlime - BugCraft</h1>
- 
-<a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=OUqP8qvlV9M705ZEo1_hnEr-a9QphPY3&authKey=ZLTWzSzNDKXU71ldMRzAS%2FLAvGgAtuezh7%2FekYGguiGIq3pq98Tod1Ttzvskcifu&noverify=0&group_code=825140225">点击链接加入Q群获取IP!</a>
- 
+    <div class="preloader">
+        <img class="preloader__image" width="60" src="./static/picture/loader.png" alt="">
+    </div>
+    <!-- /.preloader -->
+    <div class="page-wrapper">
+        <header class="main-header main-header-two clearfix">
+            <nav class="main-menu main-menu-two clearfix">
+                <div class="main-menu-wrapper clearfix">
+                    <div class="main-menu-wrapper-inner clearfix">
+                        <div class="main-menu-wrapper__left clearfix">
+                            <div class="main-menu-wrapper__logo">
+                                <a href="index.html"><img src="./static/picture/logo-1.png" alt=""></a>
+                            </div>
+                            <div class="main-menu-wrapper__main-menu">
+                                <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
+                                <ul class="main-menu__list">
+                                    <li><a href="index.html">主页</a></li>
+                                    <li class="dropdown">
+                                        <a href="#">关于</a>
+                                        <ul>
+                                            <li><a href="about-player.html">玩家</a></li>
+                                            <li><a href="about-partner.html">合作伙伴</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="apply.html">申请服务</a></li>
+                                    <li><a href="contact.html">联系我们</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="main-menu-wrapper__right">
+                            <div class="main-menu-wrapper__call">
+                                <div class="main-menu-wrapper__call-icon">
+                                    <span class="icon-email"></span>
+                                </div>
+                                <div class="main-menu-wrapper__call-number">
+                                    <p>有任何问题？</p>
+                                    <h5><a href="mailto:hi@mctap.net">联系我们: hi@mctap.net</a></h5>
+                                </div>
+                                <div class="main-menu-wrapper__call-number">
+                                    <h5><a href="panel.html"> | 登录面板 |</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="stricky-header stricked-menu main-menu main-menu-two">
+            <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
+        </div><!-- /.stricky-header -->
+
+        <!--Main Slider Two Start-->
+        <section class="main-slider main-slider-two">
+            <div class="swiper-container thm-swiper__slider" data-swiper-options='{"slidesPerView": 1, "loop": true,
+    "effect": "fade",
+     "pagination": {
+        "el": "#main-slider-pagination",
+        "type": "bullets",
+        "clickable": true
+      },
+    "navigation": {
+        "nextEl": "#main-slider__swiper-button-next",
+        "prevEl": "#main-slider__swiper-button-prev"
+    },
+    "autoplay": {
+        "delay": 5000
+    }}'>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="image-layer" style="background-image: url(./static/image/main-slider-3-1.jpg);">
+                        </div>
+                        <div class="image-layer-overlay"></div>
+                        <!-- /.image-layer -->
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="main-slider__content">
+                                        <div class="main-slider-two__map" style="background-image: url(./static/image/main-slider-two-map.png)">
+                                        </div>
+                                        <h3>MCTap - 白给服</h3>
+                                        <h2>免费的 <span>服务器</span> 解决方案</h2>
+                                        <p>我们的使命是成为世界上最好的Minecraft服务器解决方案提供商</p>
+                                        <a href="about-player.html" class="thm-btn">探索更多</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Main Slider Two End-->
+
+        <!--Business Growth Start-->
+        <section class="business-growth">
+            <div class="business-growth__top">
+                <div class="business-growth-bg">
+                    <div id="particles-js"></div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6">
+                            <div class="business-growth__left">
+                                <div class="section-title text-left">
+                                    <span class="section-title__tagline">6年以上的相关经验</span>
+                                    <h2 class="section-title__title">优质的Minecraft服务器解决方案提供商
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="business-growth__bottom">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="100ms">
+                            <!--Business Growth Single-->
+                            <div class="business-growth__single">
+                                <div class="business-growth__img">
+                                    <img src="./static/picture/business-growth-img-1.jpg" alt="">
+                                </div>
+                                <div class="business-growth__content">
+                                    <h4 class="business-growth__title">
+                                        <a href="apply.html">寻求服务</a>
+                                    </h4>
+                                    <p class="business-growth__text">如果您是玩家，您可以立刻找到我们向您提供的服务。</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
+                            <!--Business Growth Single-->
+                            <div class="business-growth__single">
+                                <div class="business-growth__img">
+                                    <img src="./static/picture/business-growth-img-2.jpg" alt="">
+                                </div>
+                                <div class="business-growth__content">
+                                    <h4 class="business-growth__title">
+                                        <a href="about-player.html">完美体验</a>
+                                    </h4>
+                                    <p class="business-growth__text">如果您是用户，您可以在 MCTap 服务中获得最佳体验！</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 wow fadeInRight" data-wow-delay="300ms">
+                            <!--Business Growth Single-->
+                            <div class="business-growth__single">
+                                <div class="business-growth__img">
+                                    <img src="./static/picture/business-growth-img-3.jpg" alt="">
+                                </div>
+                                <div class="business-growth__content">
+                                    <h4 class="business-growth__title">
+                                        <a href="about-partner.html">合作伙伴</a>
+                                    </h4>
+                                    <p class="business-growth__text">如果您有空余的服务器，您可以与 MCTap 合作，只需联系我们即可。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Business Growth End-->
+
+        <!--Video One Start-->
+        <section class="video-one">
+            <div class="video-one-bg jarallax" data-jarallax="" data-speed="0.2" data-imgposition="0% 100%" style="background-image: url(./static/image/video-one-bg.jpg)"></div>
+            <div class="video-one-bg-overly"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="video-one__inner">
+                            <div class="video-one__video-link">
+                                <a href="./video.mp4" class="video-popup">
+                                    <div class="video-one__video-icon">
+                                        <span class="icon-play-button"></span>
+                                        <i class="ripple"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <h2 class="video-one__title">非盈利且安全的<br> 轻量级Minecraft服务器服务</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Video One End-->
+
+        <!--Help Start-->
+        <section class="help">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <ul class="help__box list-unstyled clearfix">
+                            <li class="help__single help__box-one wow fadeInLeft" data-wow-delay="100ms">
+                                <div class="help__box-one-content">
+                                    <h3 class="help__box-one-title">保护及优化Minecraft服务器</h3>
+                                </div>
+                                <div class="help__box-one-img">
+                                    <img src="./static/picture/help-box-one-img-1.jpg" alt="">
+                                </div>
+                            </li>
+                            <li class="help__single help__box-two wow fadeInLeft" data-wow-delay="300ms">
+                                <div class="help__box-two-content">
+                                    <div class="help__box-two-icon">
+                                        <span class="icon-learning"></span>
+                                    </div>
+                                    <h3 class="help__box-two-title"><a>TapX</a></h3>
+                                    <p class="help__box-two-text">TapX是MCTap开发的中继，可以过滤异常流量，隐藏真实服务器IP，防止网络攻击，优化游戏服务器延迟。</p>
+                                </div>
+                            </li>
+                            <li class="help__single help__box-two wow fadeInLeft" data-wow-delay="600ms">
+                                <div class="help__box-two-content">
+                                    <div class="help__box-two-icon">
+                                        <span class="icon-verify"></span>
+                                    </div>
+                                    <h3 class="help__box-two-title"><a>安全</a>
+                                    </h3>
+                                    <p class="help__box-two-text">所有数据都经过加密，我们遵守中国的PIPL和欧盟的GDPR。MCTap专注于如何在全球范围内改善隐私问题。</p>
+                                </div>
+                            </li>
+                            <li class="help__single help__box-two help__box-last wow fadeInLeft" data-wow-delay="900ms">
+                                <div class="help__box-two-content">
+                                    <div class="help__box-two-icon">
+                                        <span class="icon-cloud"></span>
+                                    </div>
+                                    <h3 class="help__box-two-title"><a>快速</a>
+                                    </h3>
+                                    <p class="help__box-two-text">得益于“御坂网络®”，MCTap提供多点、多线(BGP)接入，确保玩家以最近的服务器和最低的延迟进入游戏。</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Help End-->
+
+        <!--Industries We Serve Start-->
+        <section class="industries-we-serve">
+            <div class="industries-we-serve-shape-1 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
+                <img class="float-bob-y" src="./static/picture/industries-we-serve-shape-1.png" alt=""></div>
+            <div class="industries-we-serve-shape-2 wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
+                <img src="./static/picture/industries-we-serve-shape-2.png" alt=""></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-7 col-lg-6">
+                        <div class="industries-we-serve__left">
+                            <div class="section-title text-left">
+                                <span class="section-title__tagline">探索我们的服务</span>
+                                <h2 class="section-title__title">覆盖全球的云网络</h2>
+                            </div>
+                            <p class="industries-we-serve__text">基于“御坂网络®”运行您的Minecraft服务器。让我们立刻开始建造低延迟和安全的Minecraft服务器。</p>
+                            <ul class="list-unstyled industries-we-serve__points">
+                                <li>
+                                    <div class="icon">
+                                        <span class="icon-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>集群高可用</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="icon-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>L3 & L4 DDoS攻击防御</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="icon-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>防火墙即服务</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="icon-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>智能路由连接</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-6">
+                        <div class="industries-we-serve__right clearfix">
+                            <ul class="list-unstyled industries-we-serve__boxes clearfix">
+                                <li>
+                                    <div class="industries-we-serve__icon">
+                                        <span class="icon-laptop"></span>
+                                    </div>
+                                    <h3 class="industries-we-serve__title">更低的 <br> 延迟</h3>
+                                </li>
+                                <li>
+                                    <div class="industries-we-serve__icon">
+                                        <span class="icon-ai"></span>
+                                    </div>
+                                    <h3 class="industries-we-serve__title">更智能 <br> 流控</h3>
+                                </li>
+                                <li>
+                                    <div class="industries-we-serve__icon">
+                                        <span class="icon-cyber-security"></span>
+                                    </div>
+                                    <h3 class="industries-we-serve__title">DDoS <br> 防御</h3>
+                                </li>
+                                <li>
+                                    <div class="industries-we-serve__icon">
+                                        <span class="icon-cloud"></span>
+                                    </div>
+                                    <h3 class="industries-we-serve__title">全云端 <br> 部署</h3>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Industries We Serve End-->
+
+        <!--Team One Start-->
+        <section class="team-one">
+            <div class="team-one__container">
+                <div class="container">
+                    <div class="section-title text-center">
+                        <span class="section-title__tagline">我们的团队</span>
+                        <h2 class="section-title__title">认识我们的团队</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-6 col-md-6">
+                            <!--Team One Single-->
+                            <div class="team-one__single  wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1000ms">
+                                <div class="team-one__img">
+                                    <img src="./static/picture/team-one-img-1.jpg" alt="">
+                                </div>
+                                <div class="team-one__content">
+                                    <h3 class="team-one__name">Nyarime</h3>
+                                    <p class="team-one__title">程序工程师</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-6 col-md-6">
+                            <!--Team One Single-->
+                            <div class="team-one__single wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1000ms">
+                                <div class="team-one__img">
+                                    <img src="./static/picture/team-one-img-2.jpg" alt="">
+                                </div>
+                                <div class="team-one__content">
+                                    <h3 class="team-one__name">Yingxi</h3>
+                                    <p class="team-one__title">网络架构师</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-6 col-md-6">
+                            <!--Team One Single-->
+                            <div class="team-one__single wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1000ms">
+                                <div class="team-one__img">
+                                    <img src="./static/picture/team-one-img-3.jpg" alt="">
+                                </div>
+                                <div class="team-one__content">
+                                    <h3 class="team-one__name">AceCat</h3>
+                                    <p class="team-one__title">综合运营官</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-6 col-md-6">
+                            <!--Team One Single-->
+                            <div class="team-one__single wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1000ms">
+                                <div class="team-one__img">
+                                    <img src="./static/picture/team-one-img-4.jpg" alt="">
+                                    <div class="team-one__social">
+                                        <a href="contact.html"><i class=""></i></a>
+                                    </div>
+                                </div>
+                                <div class="team-one__content">
+                                    <h3 class="team-one__name">Waiting for you</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Team One End-->
+
+        <!--Why Choose Start-->
+        <section class="why-choose">
+            <div class="why-choose-shape-1" style="background-image: url(./static/image/why-choose-shape-1.png)">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="why-choose__left">
+                            <div class="why-choose__img">
+                                <img src="./static/picture/why-choose-img-1.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="why-choose__right">
+                            <div class="section-title text-left">
+                                <span class="section-title__tagline">TapX by MCTap</span>
+                                <h2 class="section-title__title">它可以解决服主关于服务器网络相关的一切烦恼</h2>
+                            </div>
+                            <div class="why-choose__right-text-box">
+                                <p class="why-choose__right-text">我们都知道，提升游戏体验是非常重要的，如果您的服务器在使用MCTap白给服后将会有质的飞跃。</p>
+                            </div>
+                            <div class="why-choose__progress">
+                                <div class="why-choose__progress-single">
+                                    <h4 class="why-choose__progress-title">用户满意度</h4>
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="99%">
+                                            <div class="count-text">99%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Why Choose End-->
+
+
+        <!--CTA Two Start-->
+        <section class="industries-we-serve">
+            <div class="industries-we-serve-shape-1 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
+                <img class="float-bob-y" src="./static/picture/industries-we-serve-shape-1.png" alt=""></div>
+            <div class="container">
+        <section class="cta-two">
+            <div class="cta-two__container">
+                <div class="cta-two-shape-1"><img src="./static/picture/cta-two-shape-1.png" alt=""></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="cta-two__inner">
+                                <div class="cta-two__left">
+                                    <h2 class="cta-two__title">还在犹豫吗？<br> 立刻开始吧！</h2>
+                                </div>
+                                <div class="cta-two__btn-box">
+                                    <a href="apply.html" class="cta-one__btn thm-btn">立刻申请</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <!--CTA Two End-->
+
+        <!--Site Footer One Start-->
+        <footer class="site-footer site-footer-two">
+            <div class="site-footer__top">
+                <div class="container">
+                    <div class="site-footer__top-inner">
+                        <div class="site-footer-map" style="background-image: url(./static/image/site-footer-mape.png)"></div>
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
+                                <div class="footer-widget__column footer-widget__about">
+                                    <div class="footer-widget__about-logo">
+                                        <a href="index.html"><img src="./static/picture/footer-logo.png" alt=""></a>
+                                    </div>
+                                    <p class="footer-widget__about-text">让我们将不可能变成现实
+                                        <br>努力将这不完美的世界，变成所期望的样子</p>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
+                                <div class="footer-widget__column footer-widget__links clearfix">
+                                    <h3 class="footer-widget__title">友情链接</h3>
+                                    <ul class="footer-widget__links-list list-unstyled clearfix">
+                                        <li><a href="https://moecloud.cn/">MoeCloud</a></li>
+                                        <li><a href="https://x.gy/">昔瓜鱼</a></li>
+                                        <li><a href="https://yingxi.me/">Yingxi Page</a></li>
+                                    </ul>
+                                    <ul class="footer-widget__links-list footer-widget__links-list-two list-unstyled clearfix">
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
+                                <div class="footer-widget__column footer-widget__contact">
+                                    <h3 class="footer-widget__title">联系我们</h3>
+                                    <p class="footer-widget__contact-text">成都市天府新区 <br> 湖畔路东段333号</p>
+                                    <ul class="list-unstyled footer-widget__contact-list">
+                                        <li>
+                                            <div class="icon">
+                                                <span class="icon-email"></span>
+                                            </div>
+                                            <div class="text">
+                                                <p><a href="mailto:hi@mctap.net">hi@mctap.net</a></p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="icon">
+                                                <span class="icon-telephone"></span>
+                                            </div>
+                                            <div class="text">
+                                                <p><a href="tel:00862882695087">+ 86 - 28 - 82695087</a></p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
+                                <div class="footer-widget__column footer-widget__newsletter">
+                                    <h3 class="footer-widget__title">获取资讯</h3>
+                                    <p class="footer-widget__newsletter-text">订阅我们的社交媒体获取最新资讯。</p>
+                                        <div class="footer-widget__about-social">
+                                            <a href="https://t.me/mctap"><i class="fab fa-telegram"></i></a>
+                                            <a href="https://space.bilibili.com/254913151"><i class="fab fa-youtube"></i></a>
+                                            <a href="https://jq.qq.com/?_wv=1027&k=LAPewBC3"><i class="fab fa-qq"></i></a>
+                                        </div>
+                                    <div class="mc-form__response"></div><!-- /.mc-form__response -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="site-footer__bottom">
+                <div class="site-footer__bottom-container">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <div class="site-footer__bottom-inner">
+                                    <div class="site-footer__bottom-left">
+                                        <p class="site-footer__bottom-text">&copy; 2016-2022 御坂网络有限公司及／或其关联公司及特许人。版权所有。<br><a href="https://beian.miit.gov.cn/">蜀ICP备2023019347号</a></a></p>
+                                    </div>
+                                    <div class="site-footer__bottom-right">
+                                        <ul class="list-unstyled site-footer__bottom-menu">
+                                            <li><a href="termsandcondition.html">条款与协议</a></li>
+                                            <li><span>/</span></li>
+                                            <li><a href="privacy-policy.html">隐私政策</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--Site Footer One End-->
+
+
+    </div><!-- /.page-wrapper -->
+
+
+    <div class="mobile-nav__wrapper">
+        <div class="mobile-nav__overlay mobile-nav__toggler"></div>
+        <!-- /.mobile-nav__overlay -->
+        <div class="mobile-nav__content">
+            <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
+
+            <div class="logo-box">
+                <a href="index.html" aria-label="logo image"><img src="./static/picture/footer-logo.png" width="155" alt=""></a>
+            </div>
+            <!-- /.logo-box -->
+            <div class="mobile-nav__container"></div>
+            <!-- /.mobile-nav__container -->
+
+            <ul class="mobile-nav__contact list-unstyled">
+                <li>
+                    <i class="fa fa-bars"></i>
+                    <a href="panel.html">登录面板</a>
+                </li>
+                <li>
+                    <i class="fa fa-envelope"></i>
+                    <a href="mailto:hi@mctap.net">hi@mctap.net</a>
+                </li>
+                <li>
+                    <i class="fa fa-phone-alt"></i>
+                    <a href="tel:00862882695087">+ 86 - 28 - 82695087</a>
+                </li>
+            </ul><!-- /.mobile-nav__contact -->
+            <div class="mobile-nav__top">
+                <div class="mobile-nav__social">
+                    <a href="https://t.me/mctap"><i class="fab fa-telegram"></i></a>
+                    <a href="https://space.bilibili.com/254913151"><i class="fab fa-youtube"></i></a>
+                    <a href="https://jq.qq.com/?_wv=1027&k=LAPewBC3"><i class="fab fa-qq"></i></a>
+                </div><!-- /.mobile-nav__social -->
+            </div><!-- /.mobile-nav__top -->
+
+
+
+        </div>
+        <!-- /.mobile-nav__content -->
+    </div>
+    <!-- /.mobile-nav__wrapper -->
+
+    <div class="search-popup">
+        <div class="search-popup__overlay search-toggler"></div>
+        <!-- /.search-popup__overlay -->
+        <div class="search-popup__content">
+            <form action="#">
+                <label for="search" class="sr-only">search here</label><!-- /.sr-only -->
+                <input type="text" id="search" placeholder="Search Here...">
+                <button type="submit" aria-label="search submit" class="thm-btn">
+                    <i class="icon-magnifying-glass"></i>
+                </button>
+            </form>
+        </div>
+        <!-- /.search-popup__content -->
+    </div>
+    <!-- /.search-popup -->
+
+    <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
+
+
+    <script src="./static/js/jquery-3.6.0.min.js"></script>
+    <script src="./static/js/bootstrap.bundle.min.js"></script>
+    <script src="./static/js/jarallax.min.js"></script>
+    <script src="./static/js/jquery.ajaxchimp.min.js"></script>
+    <script src="./static/js/jquery.appear.min.js"></script>
+    <script src="./static/js/jquery.circle-progress.min.js"></script>
+    <script src="./static/js/jquery.magnific-popup.min.js"></script>
+    <script src="./static/js/jquery.validate.min.js"></script>
+    <script src="./static/js/nouislider.min.js"></script>
+    <script src="./static/js/odometer.min.js"></script>
+    <script src="./static/js/swiper.min.js"></script>
+    <script src="./static/js/tiny-slider.min.js"></script>
+    <script src="./static/js/wNumb.min.js"></script>
+    <script src="./static/js/wow.js"></script>
+    <script src="./static/js/isotope.js"></script>
+    <script src="./static/js/countdown.min.js"></script>
+    <script src="./static/js/owl.carousel.min.js"></script>
+    <script src="./static/js/twentytwenty.js"></script>
+    <script src="./static/js/jquery.event.move.js"></script>
+    <script src="./static/js/jquery.bxslider.min.js"></script>
+    <script src="./static/js/bootstrap-select.min.js"></script>
+    <script src="./static/js/vegas.min.js"></script>
+    <script src="./static/js/jquery-ui.js"></script>
+    <script src="./static/js/timePicker.js"></script>
+    <script src="./static/js/particles.min.js"></script>
+    <script src="./static/js/particles-config.js"></script>
+
+
+    <!-- template js -->
+    <script src="./static/js/izeetak.js"></script>
 </body>
+
 </html>
